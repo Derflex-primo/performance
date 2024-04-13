@@ -10,7 +10,7 @@ interface Props {
 }
 
 const Container: React.FC<Props> = ({ children, layout = 'flex-row', justify, alignItems, cols, class: customClass }) => {
-    let containerStyle = 'h-full w-full px-20';
+    let containerStyle = 'px-3 sm:px-8 md:px-12 lg:px-20';
 
     if (layout === 'flex-row') {
         containerStyle += ' flex flex-row';
