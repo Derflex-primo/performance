@@ -106,6 +106,11 @@ const Video = () => {
           }}
         />
       </div>
+      {false && <div className="absolute  text-[10px] bottom-3 left-4 md:left-8 text-stone-500"> { /* DISCLAIMER FEATURED */}
+        This video is protected by copyright law and unauthorized recording,
+        copying, or redistribution is strictly prohibited
+      </div>
+      }
     </div>
   );
 };
