@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import Container from "./Container";
 import Laptop from "@/public/icons/Laptop";
 import theme from "@/public/json/theme.json";
-import daryl from "@/public/json/daryl.json";
 import Goal from "@/public/icons/Goal";
 import Scope from "@/public/icons/Scope";
 import Expand from "@/public/icons/Expand";
@@ -113,8 +112,8 @@ const About = () => {
                 <Video />
               </Suspense>
             </figure>
-            <section className="flex justify-center text-base sm:text-xl md:text-2xl bg-slate-500 bg-opacity-10 z-50 md:p-4">
-              <h3>#Don't take it from me, take it from him 🚀 💯</h3>
+            <section className="flex justify-center text-base sm:text-xl md:text-2xl bg-blue-500 bg-opacity-80 font-semibold z-50 py-3 md:p-4">
+              <h3>#Don't take it from me, take it from him 💪</h3>
             </section>
           </div>
         </div>
