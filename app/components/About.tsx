@@ -7,18 +7,19 @@ import Scope from "@/public/icons/Scope";
 import Expand from "@/public/icons/Expand";
 import Flash from "@/public/icons/Flash";
 import Heart from "@/public/icons/Heart";
-import Image from "next/image";
+import VerticalLine from "@/public/icons/VerticalLine";
 import Video from "./Video";
+
 
 const About = () => {
   return (
     <Container layout="flex-col" class="h-full w-full">
       <div className="flex flex-col justify-start  w-full h-full items-center">
-        <h2 className="leading-relaxed text-3xl text-start font-semibold mb-[100px]">
-          Will help you to gain more revenue! With our own framework!
+        <h2 className="leading-relaxed text-3xl text-start font-semibold mb-[60px]">
+          Will help you to gain more revenue! With our own <span className="underline underline-offset-2 decoration-red-400">framework!</span>
         </h2>
-        <div className="flex flex-col gap-12 md:flex-row w-full">
-          <div className="flex flex-col gap-12 md:w-[50%] cursor-default">
+        <div className="flex flex-col gap-12 md:flex-row w-full justify-center">
+          <div className="flex flex-col md:w-[50%] cursor-default">
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -35,6 +36,11 @@ const About = () => {
                 to your business.
               </p>
             </section>
+            <div className="flex justify-center">
+              <span className="text-stone-600">
+              <VerticalLine />
+             </span>
+            </div>
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -49,6 +55,11 @@ const About = () => {
                 with your broader business aspirations.
               </p>
             </section>
+            <div className="flex justify-center">
+              <span className="text-stone-600">
+              <VerticalLine />
+             </span>
+            </div>
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -63,6 +74,11 @@ const About = () => {
                 beautiful, but powerful.
               </p>
             </section>
+            <div className="flex justify-center">
+              <span className="text-stone-600">
+              <VerticalLine />
+             </span>
+            </div>
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -76,6 +92,11 @@ const About = () => {
                 designed to draw in and convert your ideal customers.
               </p>
             </section>
+            <div className="flex justify-center">
+              <span className="text-stone-600">
+              <VerticalLine />
+             </span>
+            </div>
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -92,6 +113,11 @@ const About = () => {
                 remain on the path to increased revenue and business growth.
               </p>
             </section>
+            <div className="flex justify-center">
+              <span className="text-stone-600">
+              <VerticalLine />
+             </span>
+            </div>
             <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
               <div className="flex flex-row items-center space-x-2">
                 <figure>
@@ -106,7 +132,7 @@ const About = () => {
               </p>
             </section>
           </div>
-          <div className="flex flex-col gap-5 relative w-full h-full md:w-[50%]">
+          {/* <div className="flex flex-col gap-5 relative w-full h-full md:w-[50%]">
             <figure>
               <Suspense fallback={<p>Loading video...</p>}>
                 <Video />
@@ -115,7 +141,7 @@ const About = () => {
             <section className="flex justify-center text-base sm:text-xl md:text-2xl bg-blue-500 bg-opacity-80 font-semibold z-50 py-3 md:p-4">
               <h3>#Don't take it from me, take it from him 💪</h3>
             </section>
-          </div>
+          </div> */}
         </div>
       </div>
     </Container>
