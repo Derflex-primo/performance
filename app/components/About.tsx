@@ -118,10 +118,10 @@ const About = () => {
               <VerticalLine />
              </span>
             </div>
-            <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded">
+            <section className="flex flex-col space-y-5  bg-stone-600 bg-opacity-40 p-6 rounded border-4 border-red-400">
               <div className="flex flex-row items-center space-x-2">
-                <figure>
-                  <Heart svgcolor={theme.palette.main} />
+                <figure className="text-red-400">
+                  <Heart  />
                 </figure>
                 <h2 className="text-xl font-medium">Dedicated Support</h2>
               </div>
