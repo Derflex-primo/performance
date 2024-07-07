@@ -35,7 +35,7 @@ const Container: React.FC<Props> = ({ children, layout = 'flex-row', justify, al
     }
 
     return (
-        <div className={containerStyle}>
+        <div className={`${containerStyle} max-w-screen-2xl mx-auto`}>
             {children}
         </div>
     );
