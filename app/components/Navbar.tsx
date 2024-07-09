@@ -9,7 +9,7 @@ import Support from "@/public/icons/Support";
 const Navbar = () => {
   return (
     <>
-      <Container class="fixed w-full sm:py-3 bg-black border-b-[0.5px] border-stone-800">
+      <Container class="fixed w-full sm:py-3 bg-black border-b-[0.5px] border-stone-800 z-50">
         <nav className="flex flex-row w-full items-center justify-between    ">
           <div className="flex items-center space-x-1 md:space-x-3">
             <div className="flex items-center text-2xl sm:text-3xl font-bold text-white mr-2 sm:pr-6 sm:border-r-[0.5px] border-stone-800">
@@ -48,7 +48,7 @@ const Navbar = () => {
               Web Blueprint
             </h3>
             <h3 className="flex items-center space-x-1.5 font-semibold cursor-pointer px-1.5 py-0.5 bg-blue-500 hover:bg-blue-400 text-white transition-colors ease-in-out rounded-[2px]">
-              <span>Contact us</span>
+              <span>Support</span>
               <Support />
             </h3>
           </div>
