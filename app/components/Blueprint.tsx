@@ -22,7 +22,7 @@ const Blueprint = () => {
         <div className="relative flex md:hidden items-center justify-between bg-stone-50 z-10 p-2">
           <div>ii</div>
           <div className="bg-slate-100 border w-auto p-2 rounded-full">
-            https://yourbusiness.com
+            https://yourcompany.com
           </div>
           <div>ii</div>
           <div>ii</div>
