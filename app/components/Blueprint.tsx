@@ -8,8 +8,8 @@ const Blueprint = () => {
         <h2 className="text-2xl font-semibold">Ultimate Website Blueprint</h2>
       </div>
 
-      <div className="relative h-auto mt-6 text-[13px] text-black">
-        <div className="absolute  brightness-50 w-full h-full top-0 z-0">
+      <div className="relative h-auto mt-6 text-[13px] text-black sm:rounded-none">
+        <div className="absolute  brightness-50 w-full h-full top-0 z-0 mt-6">
           <video
             src="/video/droneshot.mp4"
             className="w-full h-full object-cover"
@@ -18,6 +18,14 @@ const Blueprint = () => {
             autoPlay
             preload="meta"
           />
+        </div>
+        <div className="relative flex md:hidden items-center justify-between bg-stone-50 z-10 p-2">
+          <div>ii</div>
+          <div className="bg-slate-100 border w-auto p-2 rounded-full">
+            https://yourbusiness.com
+          </div>
+          <div>ii</div>
+          <div>ii</div>
         </div>
         <div className="relative z-10">
           <div className="text-center bg-violet-500 py-1.5 text-[10px] text-white sm:text-[13px]">
